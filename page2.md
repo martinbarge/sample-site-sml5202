@@ -18,4 +18,3 @@ END OF COMMENTS
 The United Kingdom is a unitary parliamentary democracy and constitutional monarchy.The monarch is Queen Elizabeth II, who has reigned since 1952, making her the world's longest-serving current head of state. The United Kingdom's capital is London, a global city and financial centre with an urban area population of 10.3 million. The United Kingdom consists of four countries: England, Scotland, Wales and Northern Ireland. Their capitals are London, Edinburgh, Cardiff and Belfast, respectively. Apart from England, the countries have their own devolved governments, each with varying powers. Other major cities include Birmingham, Glasgow, Leeds, Liverpool, and Manchester.     
     </div>
   </div>
-
