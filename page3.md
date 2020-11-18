@@ -1,6 +1,6 @@
 <h1>Page 3</h1>
 <p>write your content in this file as you would normally</p>
-<table style="width: 336px;">
+<table style="width: 460px; height: 96px;" border="1">
 <tbody>
 <tr>
 <td style="width: 50px;">Infinitive</td>
