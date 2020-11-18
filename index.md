@@ -4,8 +4,8 @@
   <div class="row">
     <div class="col-md-4">
       <div class="thumbnail">
-        <a href="https://upload.wikimedia.org/wikipedia/commons/c/c3/Great_Britain_template.png" target="_blank">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Great_Britain_template.png" alt="UK Map" style="height:100%">
+        <a href="images/uk-shrink.png" target="_blank">
+          <img src="images/uk-shrink.png" alt="UK Map" style="height:100%">
           <div class="caption">
             <p>Map of British Isles. As you can see, it's an island.</p>
           </div>
