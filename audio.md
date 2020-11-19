@@ -3,6 +3,13 @@
 
 <h2>1. The audio player</h2> 
 
+<audio controls>
+   <source src="audio/spanish-1.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+
+
 <audio controls> 
 <source src="https://martinbarge.github.io/sml5202-sts/assets/audio/FullExtract.ogg" type="audio/ogg"> 
 <source src="https://martinbarge.github.io/sml5202-sts/assets/audio/FullExtract.mp3" type="audio/mpeg">
