@@ -2,11 +2,9 @@
 <style>
 .iframe-container {
   position: relative;
-  width: 66.66%;
   overflow: hidden;
-  padding-top: 66.66%; /* 3:2 Aspect Ratio */
-  margin-left:16%;
-  margin-right:16%;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) *
 }
 
 .responsive-iframe {
@@ -19,29 +17,6 @@
   height: 80%;
   border: none;
 }
-
-@media screen and (max-width: 600px) {
-.iframe-container {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 66.66%; 
-  margin-left:0;
-  margin-right:0;
-}
-
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-}
-}
-
 </style>
 
 <h1>Embedded Language Game</h1>
@@ -63,6 +38,7 @@
   <p>Your browser does not support iframes.</p>
   </iframe>
   </div>
+  
 <p><a href="https://raw.githubusercontent.com/martinbarge/templatetest/main/games.md">Get the code for this page.</a></p>
 
 <script>
