@@ -5,7 +5,6 @@
   width: 66.66%;
   overflow: hidden;
   padding-top: 66.66%; /* 3:2 Aspect Ratio */
-  margin-bottom:2px;
   margin-left:15%;
   margin-right:15%;
 }
@@ -26,7 +25,6 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  margin-bottom:2px;
   padding-top: 66.66%; /* 3:2 Aspect Ratio */
   
 }
@@ -53,18 +51,17 @@
 
 <p>Select the game type from the dropdown to try it:</p>
 
-<select name="" id="list" onclick="loadFrame()">
+    
+  <div class="iframe-container">
+  <select name="" id="list" onclick="loadFrame()">
     <option value="shooter">Phrases Shooter Game</option>
     <option value="matching">Phrases matching game</option>
   </select>
-  <br><br>
-    
-  <div class="iframe-container">
-    <iframe class="responsive-iframe" id="ifrm" src="https://www.cram.com/flashcards/games/jewel/english-spanish-translations-11085554">
+  <p>&nbsp;</p>
+<iframe class="responsive-iframe" id="ifrm" src="https://www.cram.com/flashcards/games/jewel/english-spanish-translations-11085554">
   <p>Your browser does not support iframes.</p>
   </iframe>
   </div>
-  
 
 <p><a href="https://raw.githubusercontent.com/martinbarge/templatetest/main/games.md">Get the code for this page.</a></p>
 
