@@ -6,8 +6,8 @@
   overflow: hidden;
   padding-top: 66.66%; /* 3:2 Aspect Ratio */
   margin-bottom:2px;
-  margin-left:25%;
-  margin-right:25%;
+  margin-left:15%;
+  margin-right:15%;
 }
 
 .responsive-iframe {
