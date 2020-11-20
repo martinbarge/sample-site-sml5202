@@ -2,6 +2,25 @@
 <style>
 .iframe-container {
   position: relative;
+  width: 60%;
+  overflow: hidden;
+  padding-top: 66.66%; /* 3:2 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+.iframe-container {
+  position: relative;
   width: 100%;
   overflow: hidden;
   padding-top: 66.66%; /* 3:2 Aspect Ratio */
@@ -17,6 +36,8 @@
   height: 100%;
   border: none;
 }
+}
+
 </style>
 
 <h1>Embedded Language Game</h1>
