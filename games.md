@@ -1,18 +1,21 @@
 
 <style>
 .iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%;
   position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 66.66%; /* 3:2 Aspect Ratio */
 }
 
-.iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 </style>
 
@@ -28,7 +31,7 @@
   <br><br>
     
   <div class="iframe-container">
-    <iframe id="ifrm" src="https://www.cram.com/flashcards/games/jewel/english-spanish-translations-11085554">
+    <iframe class="responsive-iframe" id="ifrm" src="https://www.cram.com/flashcards/games/jewel/english-spanish-translations-11085554">
   <p>Your browser does not support iframes.</p>
   </iframe>
   </div>
