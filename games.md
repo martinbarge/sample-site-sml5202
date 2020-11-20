@@ -49,15 +49,15 @@
 
 <p>There are two games types (matching items and a simple shooter game).</p>
 
-<p>Select the game type from the dropdown to try it:</p>
-
-    
-  <div class="iframe-container">
+<p>Select the game type from the dropdown to try it:  
   <select name="" id="list" onclick="loadFrame()">
     <option value="shooter">Phrases Shooter Game</option>
     <option value="matching">Phrases matching game</option>
   </select>
-  <p>&nbsp;</p>
+</p>
+
+    
+  <div class="iframe-container">
 <iframe class="responsive-iframe" id="ifrm" src="https://www.cram.com/flashcards/games/jewel/english-spanish-translations-11085554">
   <p>Your browser does not support iframes.</p>
   </iframe>
