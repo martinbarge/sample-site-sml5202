@@ -2,9 +2,10 @@
 <style>
 .iframe-container {
   position: relative;
-  width: 60%;
+  width: 66.66%;
   overflow: hidden;
   padding-top: 66.66%; /* 3:2 Aspect Ratio */
+  margin-bottom:2px;
 }
 
 .responsive-iframe {
@@ -14,7 +15,7 @@
   bottom: 0;
   right: 0;
   width: 100%;
-  height: 100%;
+  height: 66.66%;
   border: none;
 }
 
@@ -23,7 +24,9 @@
   position: relative;
   width: 100%;
   overflow: hidden;
+  margin-bottom:2px;
   padding-top: 66.66%; /* 3:2 Aspect Ratio */
+  
 }
 
 .responsive-iframe {
@@ -42,9 +45,12 @@
 
 <h1>Embedded Language Game</h1>
 <p>This is an example of two games for practising English-Spanish phrases.</p>
-<p>The language content of these games can be created by you, on the [Cram website](https://www.cram.com/), so try this out and if you like what you see, create a Cram account and make your own!</p>
+<p>The language content of these games can be created by you, on the <a href="https://www.cram.com/">Cram website</a>, so try this out and if you like what you see, create a Cram account and make your own!</p>
+
 <p>There are two games types (matching items and a simple shooter game).</p>
+
 <p>Select the game type from the dropdown to try it:</p>
+
 <select name="" id="list" onclick="loadFrame()">
     <option value="shooter">Phrases Shooter Game</option>
     <option value="matching">Phrases matching game</option>
@@ -57,8 +63,8 @@
   </iframe>
   </div>
   
-   <p style="font-size:90%;">This <a href="https://benmarshall.me/responsive-iframes/">responsive iframe</a> is courtesy of Ben Marshall's demonstration of <a href="https://benmarshall.me/resize-videos-proportionally-intrinsic-ratios/">intrinsic ratio technique</a>.</p>
 
+<p><a href="https://raw.githubusercontent.com/martinbarge/templatetest/main/games.md">Get the code for this page.</a></p>
 
 <script>
 function loadFrame() {
