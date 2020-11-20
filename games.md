@@ -25,8 +25,9 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: 66.66%; /* 3:2 Aspect Ratio */
-  
+  padding-top: 66.66%; 
+  margin-left:0;
+  margin-right:0;
 }
 
 .responsive-iframe {
@@ -62,7 +63,6 @@
   <p>Your browser does not support iframes.</p>
   </iframe>
   </div>
-
 <p><a href="https://raw.githubusercontent.com/martinbarge/templatetest/main/games.md">Get the code for this page.</a></p>
 
 <script>
@@ -79,6 +79,5 @@ function loadFrame() {
   let gameUrl = "https://www.cram.com/flashcards/games/jewel/english-spanish-translations-11085554";
   document.getElementById("ifrm").src = gameUrl;
   }
-  
 }
 </script>
