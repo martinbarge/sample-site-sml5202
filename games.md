@@ -2,10 +2,11 @@
 <style>
 .iframe-container {
   position: relative;
-  width: 56.25%;
+  width: 66.66%;
   overflow: hidden;
   padding-top: 66.66%; /* 3:2 Aspect Ratio */
-  margin-left:10%;
+  margin-left:16%;
+  margin-right:16%;
 }
 
 .responsive-iframe {
@@ -26,6 +27,7 @@
   overflow: hidden;
   padding-top: 66.66%; 
   margin-left:0;
+  margin-right:0;
 }
 
 .responsive-iframe {
