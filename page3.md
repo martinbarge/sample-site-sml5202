@@ -38,8 +38,6 @@
 <iframe src="https://h5p.org/h5p/embed/5896" width="1090" height="806" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
 
 <h2>Part 2. Vocabulary</h2>
-
-<iframe src="https://h5p.org/h5p/embed/1057021" width="1090" height="270" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
-
+<p><strong>Here I will insert a vocabulary exercise using items about every day activities (e.g. shower, lunch, dinner, breakfast, work, television, computer games, swimming, gym etc.</strong></p>
 
 
