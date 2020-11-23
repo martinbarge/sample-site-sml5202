@@ -9,6 +9,7 @@ I've also included paragraph tags and bullet list tags in the text section, so y
 END OF COMMENTS --> 
 <!-- Copy all of the code from below here -->
 
+<h3> Part 1: Read about Britain</h3>
 <div class="row">
     <div class="col-sm-5">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Uk_map_home_nations.png/256px-Uk_map_home_nations.png" style="width:100%" />
@@ -26,3 +27,7 @@ END OF COMMENTS -->
 </ul>
    </div>
   </div>
+  
+  <h3>Part 2: Comprehension check</h3>
+  <p>Take this quiz about Britain</p>
+  <strong>Note to me: insert Quiz here</strong>
