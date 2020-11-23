@@ -1,5 +1,5 @@
-<h1>Image and Text</h1>
-<p>The example on this page shows image and text arranged in two columns</p>
+<h1>About Britain</h1>
+<p>The example on this page shows image and text arranged in two columns. It's a good way to layout information with illustrations.</p>
 
 <!-- 
 COMMENTS: The code below is for a two column layout with image on the left and text on the right.
