@@ -1,6 +1,8 @@
 <h1>Welcome</h1>
-<p>Click on the images to enlarge them.</p>
+<p>This is my example website about learning English.</p>
 
+<h2>What will you find on this website?</h2>
+<p>Here you can learn about English accents, grammar and vocabulary, and some cultural information about England</p>
   <div class="row">
     <div class="col-md-4">
       <div class="thumbnail">
@@ -27,14 +29,9 @@
         <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fish_and_chips_Portobello_Road.jpg/640px-Fish_and_chips_Portobello_Road.jpg" target="_blank">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fish_and_chips_Portobello_Road.jpg/640px-Fish_and_chips_Portobello_Road.jpg" alt="Fish and Chips" style="height:100%">
           <div class="caption">
-            <p>Fish and Chips. Britain is said to be famous for fish and chips. Sometimes they are very tasty, but not always.</p>
+            <p><strong>Culture:</strong>There is much more to British culture than Fish and Chips!! Explore this website to learn more.</p>
           </div>
         </a>
       </div>
     </div>
 </div>
-
- 
-<hr>
-<p>Embedded YouTube Video</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-8mzWkuOxz8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
