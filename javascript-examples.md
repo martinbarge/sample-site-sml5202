@@ -11,26 +11,30 @@
 ## Example 2
 <p>This is a slightly more sophisticated pop-up. Firstly, it opens in the centre of the screen. Secondly, it re-focuses (pops-up) even when the window is minimised. Try it and see!</p>
 
-<script type="text/javascript">
-<!-- 
+<script>
+
 function popup_special(url)
 {
-var width  = 500; var height = 200; 
+var width  = 500; 
+var height = 200; 
 var left   = (screen.width  - width)/2; var top    = (screen.height - height)/2; 
 var params = 'width='+width+', height='+height; params += ', top='+top+', left='+left; 
 params += ', directories=no'; params += ', location=no'; params += ', menubar=no'; 
 params += ', resizable=no'; params += ', scrollbars=no'; params += ', status=no'; 
 params += ', toolbar=no';
 newwin=window.open(url,'windowname5', params); 
-if (window.focus) {newwin.focus()} return false;
-}// 
--->
+if (window.focus) {
+newwin.focus()
+} 
+return false;
+}
 </script>
 <p>
 <a href="javascript: void(0)" onclick="popup_special('http://en.wikipedia.org/wiki/JavaScript')">Open a centred popup window</a><br>
 </p>
 
-## Variation
+## Variations
+
 <p>I can now write a piece of text and add some vocabulary glosses. E.G.:</p> 
 <p>A <a href="javascript: void(0)" onclick="popup_special('http://wordnetweb.princeton.edu/perl/webwn?s=glossary')">glossary</a> can be very useful in a text.</p>
 
