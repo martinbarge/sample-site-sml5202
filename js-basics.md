@@ -12,7 +12,7 @@ function test1() {
 
 <p>The code</p>
 
-<code>
+<pre>
 
 ``
 <button onclick="test1()">Try it</button>
@@ -22,7 +22,7 @@ function test1() {
 }
 </script>
 ``
-</code>
+</pre>
 
 <p><a href="https://www.w3schools.com/jsref/met_win_alert.asp">Reference for this script</a></p>
   
