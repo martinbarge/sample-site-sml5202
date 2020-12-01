@@ -19,13 +19,12 @@ function test1() {
   alert("Hello! I am an alert box!");
 }
 </script>
-
 ```
 
 #### Explanation
 
 <p> 
-In the code above, you can see the JavaScript inside the <script> tags. 
+In the code above, you can see the JavaScript inside the &lt;script&gt; tags. 
 This uses the JavaScript ‘Function’ object and a dialog box object.
 The function is executed by the ‘onclick=’ event handler, assigned to an HTML button.
 </p>
@@ -55,7 +54,6 @@ function test2() {
   document.getElementById("demo1").innerHTML = "Hello World! How are you today?";
 }
 </script>
-
 ```
 
 #### Explanation
@@ -97,7 +95,6 @@ function test3() {
   document.getElementById("output1").innerHTML = "Hello " + yourName;
 }
 </script>
-
 ```
 
 ### Explanation
