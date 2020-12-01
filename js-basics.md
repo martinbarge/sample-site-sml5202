@@ -3,9 +3,9 @@
 ## Simple alert
 <p>This example shows a simple alert box when a button is clicked</p>
 
-<button onclick="myFunction()">Try it</button>
+<button onclick="test1()">Try it</button>
 <script>
-function myFunction() {
+function test1() {
   alert("Hello! I am an alert box!");
 }
 </script>
@@ -15,27 +15,17 @@ function myFunction() {
 ## Write something into a document
 <p>This example shows how JS can manipulate text on a document</p>
 
-<p id="demo">Click the button to change the text in this paragraph.</p>
-<button onclick="myFunction()">Try it</button>
+<p id="demo1">Click the button to change the text in this paragraph.</p>
+<button onclick="test2()">Try it</button>
 
 <script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
+function test2() {
+  document.getElementById("demo1").innerHTML = "Hello World";
 }
 </script>
 
 <p>The script you need:</p>
-<code>
-<p id="demo">Click the button to change the text in this paragraph.</p>
-<button onclick="myFunction()">Try it</button>
 
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
-}
-</script>
-
-</code>
 
 <p><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp">Reference for this script</a></p>
 
@@ -44,11 +34,11 @@ function myFunction() {
 <p>This example shows how JS can take user input and join it to another text and output it.</p>
 
 <p>Enter your name: <input type="text" id="inputName"> 
-<button onclick="myFunction()">Try it</button>
+<button onclick="test3()">Try it</button>
 <p id="output"></p>
 
 <script>
-function myFunction() {
+function test3() {
   var yourName = document.getElementById("inputName").value;
   document.getElementById("output").innerHTML = "Hello " + yourName;
 }
