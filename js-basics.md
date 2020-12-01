@@ -97,10 +97,11 @@ function test3() {
 </script>
 ```
 
-### Explanation
+
+<h3>Explanation</h3>
+
 
 <hr>
-
 <p><strong>But what happens if the user doesn't enter a name?</strong></p>
 <p>Yes, that's right, you get a message saying only 'Hello' with no name.</p>
 <p>We can solve this by making sure the user enters a name:</p>
