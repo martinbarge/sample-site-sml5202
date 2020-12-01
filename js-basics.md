@@ -15,12 +15,14 @@ function test1() {
 
 
 ```
+
 <button onclick="test1()">Try it</button>
 <script>
 function test1() {
   alert("Hello! I am an alert box!");
 }
 </script>
+
 ```
 
 
