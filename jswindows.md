@@ -1,6 +1,8 @@
 # JavaScript Examples
 
-<p>Hi! In this post I want to show you two methods for opening pop-up windows using the wonderful and powerful scripting language called JavaScript.</p>
+## Manipulating Browser windows
+
+<p>Hi! In this post I want to show you two methods for opening pop-up windows using the powerful scripting language called JavaScript.</p>
 
 ## Example 1
 
@@ -39,4 +41,4 @@ return false;
 <p>A <a href="javascript: void(0)" onclick="popup_special('http://wordnetweb.princeton.edu/perl/webwn?s=glossary')">glossary</a> can be very useful in a text.</p>
 
 ### Acknowledgement:
-<p>The JavaScript itself has been taken from: <a href="http://javascript-array.com/scripts/window_open/" target="_blank" ,="">javascript-array.com</a>.</p>
+<p>The JavaScript for these examples is adapted from: <a href="http://javascript-array.com/scripts/window_open/" target="_blank" ,="">javascript-array.com</a>.</p>
