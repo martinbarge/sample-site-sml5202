@@ -24,11 +24,11 @@ function test1() {
 
 #### Explanation
 
-<pre> 
+<p> 
 In the code above, you can see the JavaScript inside the <script> tags. 
 This uses the JavaScript ‘Function’ object and a dialog box object.
 The function is executed by the ‘onclick=’ event handler, assigned to an HTML button.
-</pre>
+</p>
 
 <p><a href="https://www.w3schools.com/jsref/met_win_alert.asp">Reference for this script</a></p>
 <hr>
@@ -60,13 +60,13 @@ function test2() {
 
 #### Explanation
 
-<pre> 
+<p> 
 This code illustrates a highly useful JavaScript method for accessing the Document Object.
 JavaScript uses ‘dot syntax’ to access this: document.getElementById().innerHTML = 
 This is a JavaScript method for parsing the document in search of an HTML tag with the id “demo1”.
 Once the tag with ID “demo1” is located, whatever is placed after the = sign is displayed inside the &lt;p&gt; tag of the document.
 <strong>Exercise:</strong> Change the output message so that it reads, “Hello. How are you?”
-</pre>
+</p>
 
 <p><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp">Reference for this script</a></p>
 <hr>
