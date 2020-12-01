@@ -69,10 +69,10 @@ Once the tag with ID “demo1” is located, whatever is placed after the = sign
 <p><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp">Reference for this script</a></p>
 <hr>
 
-## Extend the above to get input and output it to the document
+<h2>Extend the above to get input and output it to the document</h2>
 <p>This example shows how JS can take user input and join it to another text and output it.</p>
 
-<p>Enter your name: <input type="text" id="inputName"> 
+<p>Enter your name: <input type="text" id="inputName"></p>
 <button onclick="test3()">Try it</button>
 <p id="output1"></p>
 
@@ -106,7 +106,7 @@ function test3() {
 <p>Yes, that's right, you get a message saying only 'Hello' with no name.</p>
 <p>We can solve this by making sure the user enters a name:</p>
 
-<p>Enter your name: <input type="text" id="inputName2"> 
+<p>Enter your name: <input type="text" id="inputName2"></p> 
 <button onclick="test4()">Try it</button>
 <p id="output2"></p>
 
@@ -125,7 +125,7 @@ function test4() {
 <p>The script</p>
 
 ```
-<p>Enter your name: <input type="text" id="inputName2"> 
+<p>Enter your name: <input type="text" id="inputName2"></p> 
 <button onclick="test4()">Try it</button>
 <p id="output2"></p>
 
