@@ -10,7 +10,7 @@ function myFunction() {
 }
 </script>
 
-<p><a href="https://www.w3schools.com/jsref/met_win_alert.asp">Reference for this script</p>
+<p><a href="https://www.w3schools.com/jsref/met_win_alert.asp">Reference for this script</a></p>
   
 ## Write something into a document
 <p>This example shows how JS can manipulate text on a document</p>
@@ -25,7 +25,7 @@ function myFunction() {
 </script>
 
 <p>The script you need:</p>
-<pre>
+<code>
 <p id="demo">Click the button to change the text in this paragraph.</p>
 <button onclick="myFunction()">Try it</button>
 
@@ -35,9 +35,9 @@ function myFunction() {
 }
 </script>
 
-</pre>
+</code>
 
-<p><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp">Reference for this script</p>
+<p><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp">Reference for this script</a></p>
 
 
 ## Extend the above to get input and output it to the document
