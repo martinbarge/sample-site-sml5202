@@ -35,12 +35,12 @@ function test2() {
 
 <p>Enter your name: <input type="text" id="inputName"> 
 <button onclick="test3()">Try it</button>
-<p id="output"></p>
+<p id="output1"></p>
 
 <script>
 function test3() {
   var yourName = document.getElementById("inputName").value;
-  document.getElementById("output").innerHTML = "Hello " + yourName;
+  document.getElementById("output1").innerHTML = "Hello " + yourName;
 }
 </script>
 
@@ -50,7 +50,7 @@ function test3() {
 
 <p>Enter your name: <input type="text" id="inputName"> 
 <button onclick="test4()">Try it</button>
-<p id="output"></p>
+<p id="output2"></p>
 
 <script>
 function test4() {
@@ -59,7 +59,7 @@ function test4() {
   alert("Please enter your name!");
   }
   else {
-  document.getElementById("output").innerHTML = "Hello " + yourName;
+  document.getElementById("output2").innerHTML = "Hello " + yourName;
   }
 }
 </script>
