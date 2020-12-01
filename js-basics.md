@@ -59,13 +59,13 @@ function test3() {
 <p>Yes, that's right, you get a message saying only 'Hello' with no name.</p>
 <p>We can solve this by making sure the user enters a name:</p>
 
-<p>Enter your name: <input type="text" id="inputName"> 
+<p>Enter your name: <input type="text" id="inputName2"> 
 <button onclick="test4()">Try it</button>
 <p id="output2"></p>
 
 <script>
 function test4() {
-  var yourName = document.getElementById("inputName").value;
+  var yourName = document.getElementById("inputName2").value;
   if(!yourName){
   alert("Please enter your name!");
   }
