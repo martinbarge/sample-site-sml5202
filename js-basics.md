@@ -19,9 +19,11 @@ function test1() {
   alert("Hello! I am an alert box!");
 }
 </script>
+
 ```
 
 #### Explanation
+
 <pre> 
 In the code above, you can see the JavaScript inside the <script> tags. 
 This uses the JavaScript ‘Function’ object and a dialog box object.
@@ -95,7 +97,9 @@ function test3() {
   document.getElementById("output1").innerHTML = "Hello " + yourName;
 }
 </script>
+
 ```
+
 ### Explanation
 
 <hr>
