@@ -12,17 +12,17 @@ function test1() {
 
 <p>The code</p>
 
-<pre>
 
-``
+
+```
 <button onclick="test1()">Try it</button>
 <script>
 function test1() {
   alert("Hello! I am an alert box!");
 }
 </script>
-``
-</pre>
+```
+
 
 <p><a href="https://www.w3schools.com/jsref/met_win_alert.asp">Reference for this script</a></p>
   
