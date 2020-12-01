@@ -20,7 +20,7 @@ function test1() {
 
 <script>
 function test2() {
-  document.getElementById("demo1").innerHTML = "Hello World";
+  document.getElementById("demo1").innerHTML = "Hello World! How are you today?";
 }
 </script>
 
@@ -43,3 +43,25 @@ function test3() {
   document.getElementById("output").innerHTML = "Hello " + yourName;
 }
 </script>
+
+<p><strong>But what happens if the user doesn't enter a name?</strong></p>
+<p>Yes, that's right, you get a message saying only 'Hello' with no name.</p>
+<p>We can solve this by making sure the user enters a name:</p>
+
+<p>Enter your name: <input type="text" id="inputName"> 
+<button onclick="test4()">Try it</button>
+<p id="output"></p>
+
+<script>
+function test4() {
+  var yourName = document.getElementById("inputName").value;
+  if(!yourName){
+  alert("Please enter your name!");
+  }
+  else {
+  document.getElementById("output").innerHTML = "Hello " + yourName;
+  }
+}
+</script>
+
+
