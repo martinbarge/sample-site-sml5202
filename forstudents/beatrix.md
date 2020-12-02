@@ -29,7 +29,6 @@
 <p>Дочь - daughter</p>
 <p>Друг - friend</p>
 <p>&nbsp;</p>
-<div>
 <p>Дя́дя - uncle</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -49,6 +48,7 @@
 </tr>
 </tbody>
 </table>
+
 <h3>Part 2</h3>
 <table class="table table-striped">
 <thead>
