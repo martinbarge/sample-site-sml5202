@@ -45,8 +45,8 @@ function test2() {
 <p>The script:</p>
 
 ```
-<p id="demo1">Click the button to change the text in this paragraph.</p>
-<button onclick="test2()">Try it</button>
+<button onclick="test2()">Click this button and watch the text below change.</button>
+<p style="font-weight:bold;" id="demo1">Watch this text change.</p>
 <script>
 function test2() {
   document.getElementById("demo1").innerHTML = "Hello World! How are you today?";
@@ -70,8 +70,8 @@ Once the tag with ID “demo1” is located, whatever is placed after the = sign
 <h2>3. Extend the above to get user input and output it to the document</h2>
 <p>This example shows how JS can take user input and join it to another text and output it.</p>
 <p>When you enter a name and submit, a message will be displayed underneath.</p>
-<p>Enter your name, or any name: <input type="text" id="inputName"><button onclick="test3()">Submit</button></p>
 
+<p>Enter your name, or any name: <input type="text" id="inputName"><button onclick="test3()">Submit</button></p>
 <p>The message will appear here: <span id="output1"></span></p>
 
 <script>
@@ -84,13 +84,13 @@ function test3() {
 <p>The script:</p>
 
 ```
-<button onclick="test3()">Try it</button>
-<p id="output1"></p>
+<p>Enter your name, or any name: <input type="text" id="inputName"><button onclick="test3()">Submit</button></p>
+<p>The message will appear here: <span id="output1"></span></p>
 
 <script>
 function test3() {
   var yourName = document.getElementById("inputName").value;
-  document.getElementById("output1").innerHTML = "Hello " + yourName;
+  document.getElementById("output1").innerHTML = "Hello " + yourName + ". How are you today?";
 }
 </script>
 ```
@@ -100,7 +100,7 @@ function test3() {
 <p> 
 An HTML input box with an ID of “name” accepts user input. The Button calls the JavaScript function.<br>
 The function gets the value of the input box, using the document object method:<br>
-  <span style="font-family:font-family: Courier, monospace;">getElementById().value;</span></br>
+<span style="font-family:font-family: Courier, monospace;">getElementById().value;</span></br>
 The value is whatever is written in the input box.<br>
 This value is then stored it in a variable (using the key word var) called “name”.<br>
 The function then adds the value of the variable after the word “Hello”, using the + operator, and
@@ -131,9 +131,8 @@ function test4() {
 <p>The script</p>
 
 ```
-<p>Enter your name: <input type="text" id="inputName2"></p> 
-<button onclick="test4()">Try it</button>
-<p id="output2"></p>
+<p>Enter your name: <input type="text" id="inputName2"><button onclick="test4()">Try it</button></p>
+<p>The message will appear here: <span id="output2"></span></p>
 
 <script>
 function test4() {
