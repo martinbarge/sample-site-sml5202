@@ -67,11 +67,11 @@ Once the tag with ID “demo1” is located, whatever is placed after the = sign
 <p><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp">Reference for this script</a></p>
 <hr>
 
-<h2>Extend the above to get input and output it to the document</h2>
+<h2>3. Extend the above to get user input and output it to the document</h2>
 <p>This example shows how JS can take user input and join it to another text and output it.</p>
 
-<p>Enter your name: <input type="text" id="inputName"></p>
-<button onclick="test3()">Try it</button>
+<p>Enter your name, or any name: <input type="text" id="inputName"></p>
+<button onclick="test3()">Submit</button>
 <p id="output1"></p>
 
 <script>
