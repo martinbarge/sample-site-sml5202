@@ -36,5 +36,4 @@ function loadQuote() {
     document.getElementById("quote").innerHTML = "<dt>" + idioms[idiomNo] + "</dt>" + "<dd>" + examples[idiomNo] + "</dd>"
 }
 loadQuote();
-
 </script>
