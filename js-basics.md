@@ -21,7 +21,7 @@ function test1() {
 </script>
 ```
 
-#### Explanation
+### Explanation
 
 <p> 
 In the code above, you can see the JavaScript inside the &lt;script&gt; tags. 
@@ -54,14 +54,14 @@ function test2() {
 </script>
 ```
 
-#### Explanation
+### Explanation
 
 <p> 
-This code illustrates a highly useful JavaScript method for accessing the Document Object.
-JavaScript uses ‘dot syntax’ to access this: document.getElementById().innerHTML = 
-This is a JavaScript method for parsing the document in search of an HTML tag with the id “demo1”.
+This code illustrates a highly useful JavaScript method for accessing the Document Object.<br>
+JavaScript uses ‘dot syntax’ to access this: <br>
+<span style="font-family:font-family: Courier, monospace;">document.getElementById().innerHTML = </span><br>
+This is a JavaScript method for parsing the document in search of an HTML tag with the id “demo1”.<br>
 Once the tag with ID “demo1” is located, whatever is placed after the = sign is displayed inside the &lt;p&gt; tag of the document.
-<strong>Exercise:</strong> Change the output message so that it reads, “Hello. How are you?”
 </p>
 
 <p><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp">Reference for this script</a></p>
@@ -97,17 +97,25 @@ function test3() {
 
 
 <h3>Explanation</h3>
-
+<p> 
+An HTML input box with an ID of “name” accepts user input. The Button calls the JavaScript function.<br>
+The function gets the value of the input box, using the document object method:<br>
+  <span style="font-family:font-family: Courier, monospace;">getElementById().value;</span></br>
+The value is whatever is written in the input box.<br>
+This value is then stored it in a variable (using the key word var) called “name”.<br>
+The function then adds the value of the variable after the word “Hello”, using the + operator, and
+writes it to the document.<br>
+Adding two string (word) values together with the ‘+’ operator is known as ‘concatenation’.<br>
+Exercise: Modify the output text so that it adds “How are you?” after the user’s name.
+</p>
 
 <hr>
 <p><strong>But what happens if the user doesn't enter a name?</strong></p>
 <p>Yes, that's right, you get a message saying only 'Hello' with no name.</p>
 <p>We can solve this by making sure the user enters a name:</p>
 
-<p>Enter your name: <input type="text" id="inputName2"></p> 
-<button onclick="test4()">Try it</button>
-<p id="output2"></p>
-
+<p>Enter your name: <input type="text" id="inputName2"><button onclick="test4()">Try it</button></p>
+<p>The message will appear here: <span id="output2"></span></p>
 <script>
 function test4() {
   var yourName = document.getElementById("inputName2").value;
@@ -140,5 +148,11 @@ function test4() {
 </script>
 ```
 
+<h3>Explanation</h3>
+<p> 
+JavaScript provides a core programming construct known as 'if' condition. We can use an ‘if’ condition to check that the text box contains a value.<br>
+Look at the ‘if’ and ‘else’ conditions in the code above: The ‘if’ statement checks whether the variable ‘name’ contains a value. This is done using Boolean NOT operator (!), placed before the variable name. In plain English, this means: ‘if the variable ‘name’ is empty (i.e. if !name is true), show an alert box.<br>
+The if statement is followed by an else statement, which executes if the first ‘if’ statement is false. In this case, the ‘else’ statement writes the value to the document.
+</p>
 
 
