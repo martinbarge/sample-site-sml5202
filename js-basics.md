@@ -69,15 +69,14 @@ Once the tag with ID “demo1” is located, whatever is placed after the = sign
 
 <h2>3. Extend the above to get user input and output it to the document</h2>
 <p>This example shows how JS can take user input and join it to another text and output it.</p>
-
-<p>Enter your name, or any name: <input type="text" id="inputName"></p>
-<button onclick="test3()">Submit</button>
-<p id="output1"></p>
+<p>When you enter a name and submit, a message will be displayed underneath.</p>
+<p>Enter your name, or any name: <input type="text" id="inputName"><button onclick="test3()">Submit</button>
+<p>The message will appear here: <span id="output1"></span></p>
 
 <script>
 function test3() {
   var yourName = document.getElementById("inputName").value;
-  document.getElementById("output1").innerHTML = "Hello " + yourName;
+  document.getElementById("output1").innerHTML = "Hello " + yourName + ". How are you today?";
 }
 </script>
 
