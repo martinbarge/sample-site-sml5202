@@ -1,6 +1,6 @@
 # JavaScript Basics
 
-## Simple alert
+## 1. A Simple Alert Box
 <p>This example shows a simple alert box when a button is clicked</p>
 
 <button onclick="test1()">Try it</button>
@@ -32,12 +32,10 @@ The function is executed by the ‘onclick=’ event handler, assigned to an HTM
 <p><a href="https://www.w3schools.com/jsref/met_win_alert.asp">Reference for this script</a></p>
 <hr>
 
-## Write something into a document
+## 2. Write something into a document
 <p>This example shows how JS can manipulate text on a document</p>
-
-<p id="demo1">Click the button to change the text in this paragraph.</p>
-<button onclick="test2()">Try it</button>
-
+<button onclick="test2()">Click this button and watch the text below change.</button>
+<p style="font-weight:bold;" id="demo1">Watch this text change.</p>
 <script>
 function test2() {
   document.getElementById("demo1").innerHTML = "Hello World! How are you today?";
