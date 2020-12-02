@@ -98,11 +98,11 @@ function test3() {
 
 <h3>Explanation</h3>
 <p> 
-An HTML input box with an ID of “name” accepts user input. The Button calls the JavaScript function.<br>
+An HTML input box with an ID of “inputName” accepts user input. The Button calls the JavaScript function.<br>
 The function gets the value of the input box, using the document object method:<br>
 <span style="font-family:font-family: Courier, monospace;">getElementById().value;</span></br>
 The value is whatever is written in the input box.<br>
-This value is then stored it in a variable (using the key word var) called “name”.<br>
+This value is then stored it in a variable (using the key word var) called “yourName”.<br>
 The function then adds the value of the variable after the word “Hello”, using the + operator, and
 writes it to the document.<br>
 Adding two string (word) values together with the ‘+’ operator is known as ‘concatenation’.<br>
