@@ -1,6 +1,6 @@
 <h1>Interactive Map Example</h1>
 <p>This is a simple and engaging way to create a clickable map. Try clicking one of the markers to see it in action.</p>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19XFUtxp_NckYxAoLCK5ruhDUPocu_Tq5" width="100%" height="500"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=19XFUtxp_NckYxAoLCK5ruhDUPocu_Tq5" width="640" height="500"></iframe>
 
 <p><a href="https://support.google.com/mymaps/answer/3024454?hl=en&amp%3Bref_topic=3188329">This Google page</a> explains how to make your own.</p>
 
@@ -9,7 +9,7 @@
 
 <h3>Exercise 1: A Map of My Early Life</h3>
       <p>Look at the map of Ludlow below, and click the orange place markers to learn why these places are important in my life.</p>
-<p><iframe src="https://www.google.com/maps/d/embed?mid=1w9dsmDQUhFC8yNRRnpwED1o5azU" width="640" height="480"></iframe></p>
+<p><iframe src="https://www.google.com/maps/d/embed?mid=1w9dsmDQUhFC8yNRRnpwED1o5azU" width="640" height="500"></iframe></p>
 
 <h3>Exercise 2: Listening.</h3>
       <p>Listen to the audio recording below to hear what the speaker says about the places in Ludlow.</p>
