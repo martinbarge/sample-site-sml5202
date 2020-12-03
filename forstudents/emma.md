@@ -4,17 +4,20 @@
 }
 
 
-/* Float 3 columns side by side */
+/* Float 3 columns side by side. Note, page width divided by 3. to use 4 columns, set this to 25% */
+
 .column {
   float: left;
-  width: 33.333%; /* page width divided by 3. to use 4 columns, set this to 25% */
+  width: 33.333%; 
   padding: 0 10px;
 }
 
 /* Remove extra left and right margins, due to padding */
+
 .row {margin: 0 -5px;}
 
 /* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
@@ -22,6 +25,7 @@
 }
 
 /* Responsive columns */
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -31,6 +35,7 @@
 }
 
 /* Style the counter cards */
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
@@ -45,15 +50,14 @@
 <p>Resize the browser window to see the effect.</p>
 
 <div class="row">
-<a href="www.google.com">
   <div class="column">
+    <a href="www.google.com">
      <div class="card">
       <h3>Activity A</h3>
       <p>Some optional text</p>
-      
-    </div>
+       </div>
     </a>
-  </div>
+ </div>
 
   <div class="column">
     <div class="card">
