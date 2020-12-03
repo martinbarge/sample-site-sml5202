@@ -46,7 +46,7 @@
 </style>
 
 <h2>Simple navigation boxes grid</h2>
-<p>In this example, I've set 4 columns, in which the boxes appear.</p>
+<p>In this example, I've set 4 columns, in which the boxes appear. The boxes are clickable and will take the user to other pages, depending on the URL you set in the boxes. You can see the a href code included below.</p>
 <p>The H5P images are optional and can be removed or replaced with your own.</p>
 <p>Resize the browser window to see the effect.</p>
 
