@@ -4,11 +4,11 @@
 }
 
 
-/* Float 3 columns side by side. Note, page width divided by 3. to use 4 columns, set this to 25% */
+/* Float 4 columns side by side. */
 
 .column {
   float: left;
-  width: 33.333%; 
+  width: 25%; 
   padding: 0 10px;
 }
 
@@ -46,7 +46,7 @@
 </style>
 
 <h2>Responsive Column Cards</h2>
-<p>In this example, I've set 3 columns, in which the boxes appear.  You can modify the CSS above to change it to 4 columns or 2 or however many you like. You will simply need to adjust the width percentage of the column style</p>
+<p>In this example, I've set 4 columns, in which the boxes appear.</p>
 <p>Resize the browser window to see the effect.</p>
 
 <div class="row">
