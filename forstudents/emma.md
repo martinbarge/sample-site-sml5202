@@ -54,32 +54,40 @@
     <a href="www.google.com">
      <div class="card">
       <h3>Activity A</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:100%;">
       <p>Some optional text</p>
        </div>
     </a>
  </div>
 
-  <div class="column">
-    <div class="card">
+ <div class="column">
+    <a href="www.google.com">
+     <div class="card">
       <h3>Activity B</h3>
-      <p>Some text</p>
-      <p>Some text</p>
-    </div>
-  </div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:100%;">
+      <p>Some optional text</p>
+       </div>
+    </a>
+ </div>
   
-  <div class="column">
-    <div class="card">
-      <h3>Card 3</h3>
-      <p>Some text</p>
-      <p>Some text</p>
-    </div>
-  </div>
+   <div class="column">
+    <a href="www.google.com">
+     <div class="card">
+      <h3>Activity C</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:100%;">
+      <p>Some optional text</p>
+       </div>
+    </a>
+ </div>
   
-  <div class="column">
-    <div class="card">
-      <h3>Card 4</h3>
-      <p>Some text</p>
-      <p>Some text</p>
-    </div>
-  </div>
+   <div class="column">
+    <a href="www.google.com">
+     <div class="card">
+      <h3>Activity D</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:100%;">
+      <p>Some optional text</p>
+       </div>
+    </a>
+ </div>
+ 
 </div>
