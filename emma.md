@@ -73,7 +73,7 @@
    <div class="column">
     <a href="maps.html">
      <div class="card">
-      <h3>Activity C</h3>
+      <h3>Maps</h3>
       <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:100%;">
       <p>Some optional text</p>
        </div>
@@ -91,3 +91,6 @@
  </div>
  
 </div>
+
+<hr>
+<p>Some additional paragraph text in here.</p>
