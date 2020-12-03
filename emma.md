@@ -55,7 +55,7 @@
     <a href="audio.html">
      <div class="card">
       <h3>Audio Exercise</h3>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:70%; margin-left:15%; margin-right:15%;">
+      <img src="images/h5p-logo.png" style="width:70%; margin-left:15%; margin-right:15%;">
       <p>Some optional text</p>
        </div>
     </a>
@@ -65,7 +65,7 @@
     <a href="games.html">
     <div class="card">
       <h3>Games</h3>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:70%; margin-left:15%; margin-right:15%;">  
+      <img src="images/h5p-logo.png" style="width:70%; margin-left:15%; margin-right:15%;">
       <p>Some optional text</p>
        </div>
     </a>
@@ -75,7 +75,7 @@
     <a href="maps.html">
      <div class="card">
       <h3>Maps</h3>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:70%; margin-left:15%; margin-right:15%;">
+      <img src="images/h5p-logo.png" style="width:70%; margin-left:15%; margin-right:15%;">      
       <p>Some optional text</p>
       </div>
     </a>
@@ -85,7 +85,7 @@
     <a href="js-random.html">
      <div class="card">
       <h3>Random sentences</h3>
-     <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:70%; margin-left:15%; margin-right:15%;">
+     <img src="images/h5p-logo.png" style="width:70%; margin-left:15%; margin-right:15%;">
       <p>Some optional text</p>
        </div>
     </a>
