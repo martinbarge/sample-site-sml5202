@@ -53,7 +53,7 @@
   <div class="column">
     <a href="audio.html">
      <div class="card">
-      <h3>Activity A</h3>
+      <h3>Audio Exercise</h3>
       <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:100%;">
       <p>Some optional text</p>
        </div>
@@ -63,7 +63,7 @@
  <div class="column">
     <a href="games.html">
     <div class="card">
-      <h3>Activity B</h3>
+      <h3>Games</h3>
       <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:100%;">
       <p>Some optional text</p>
        </div>
@@ -81,9 +81,9 @@
  </div>
   
    <div class="column">
-    <a href="www.google.com">
+    <a href="js-random.html">
      <div class="card">
-      <h3>Activity D</h3>
+      <h3>Random sentences</h3>
       <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:100%;">
       <p>Some optional text</p>
        </div>
