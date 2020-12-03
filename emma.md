@@ -45,8 +45,9 @@
 }
 </style>
 
-<h2>Responsive Column Cards</h2>
+<h2>Simple navigation boxes grid</h2>
 <p>In this example, I've set 4 columns, in which the boxes appear.</p>
+<p>The H5P images are optional and can be removed or replaced with your own.</p>
 <p>Resize the browser window to see the effect.</p>
 
 <div class="row">
@@ -54,7 +55,7 @@
     <a href="audio.html">
      <div class="card">
       <h3>Audio Exercise</h3>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:100%;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:60%; margin-left:25%; margin-right:25%;">
       <p>Some optional text</p>
        </div>
     </a>
@@ -64,7 +65,7 @@
     <a href="games.html">
     <div class="card">
       <h3>Games</h3>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:100%;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:60%; margin-left:25%; margin-right:25%;">  
       <p>Some optional text</p>
        </div>
     </a>
@@ -74,9 +75,9 @@
     <a href="maps.html">
      <div class="card">
       <h3>Maps</h3>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:100%;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:60%; margin-left:25%; margin-right:25%;">
       <p>Some optional text</p>
-       </div>
+      </div>
     </a>
  </div>
   
@@ -84,7 +85,7 @@
     <a href="js-random.html">
      <div class="card">
       <h3>Random sentences</h3>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:100%;">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/H5P_Logo.svg" style="width:60%; margin-left:25%; margin-right:25%;">
       <p>Some optional text</p>
        </div>
     </a>
