@@ -20,8 +20,6 @@ var person = {
    
 };
 
-alert(person.names[1]);
-
 var i;
 var text = "";
 for (i = 0; i < person.names.length; i++) {
@@ -64,12 +62,15 @@ for (i = 0; i < person.names.length; i++) {
 
 <h3>Explanation</h3>
 <p>The code above introduces three important programming constructs: Objects, Arrays and Loops; and the JavaScript Math Method.</p>
-<p>The first item in the function is a variable (var) known as 'person'. This variable is assigned a series of properties code above introduces two new important programming constructs: Arrays and Loops; and the JavaScript Math Method.</p>
+<p>The first code block in the function is a variable object (var) known as 'person'. The person object is assigned a series of properties: names, verbs and adverbs. Each of these properties contains multiple possible values, which are listed inside square brackets []. This type of variable list is known as an Array object. An array object contains multiple values. Each value inside the array can be referenced by an index number. For example, person.names[0] will return 'Brian'.</p>
+<p>The next block of code is the Loop structure. In this example, the loop structure has a counter variable named 'i', which is set to zero (i=0). The next parameter of the loop states how many times the loop should run (i < person.names.length). This means that the loop will count the number of names in the names list at set this as the number of times the loop should run. So, as long as i is less than that number, the loop will run. Each time the loop runs, 1 is added to i (i++). When i = the number of names in the list, it will stop running.</p>
+<p>Inside the loop, the code gets random items from the verbs and adverbs arrays, using the Math function. I won't go into this here.</p>
+<p>The only point you need to understand at this stage is that you can modify the terms in the array lists and the code will work. So you can add new names, change the names, add new verbs and adverbs etc.</p>
 <hr>
 
 <h2>Example 2</h2>
-<p>In this example the random text is again drawn from a list of text items (in this case idioms) and displayed on the page.</p>
-<p>In JavaScript the list of items is a special type of variable known as an 'array'. JavaScript can then access the items in the array, and depending how it's coded, can manipulate the items as you wish.</p>
+<p>In this example, I demonstrate how to load a random idiom when the page loads or when the button is clicked.</p> 
+<p>The same procedures as above have been deployed, but instead of looping through the entire list of items, the code simply accesses any one of the items and displays it on the page.</p>
 <p>Click the button or refresh the page to see another sentence displayed.</p>
 
 <h2>Random colour idiom</h2>
