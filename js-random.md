@@ -7,7 +7,7 @@
 <p>Examine the code below to see how it's done:</p>
 
 <button onclick="makeSentence()">Make sentences</button>
-<p>Random sentences will appear below here:</p>
+<p>Click the button more than once to see the sentences change. Random sentences will appear below here.</p>
 <p id="demo"></p>
 
 <script>
@@ -19,7 +19,9 @@ var person = {
     adverbs: ["slowly", "quickly", "nicely", "noisily", "a lot", "a little", "rarely" ]
    
 };
-  
+
+alert(person.names[1]);
+
 var i;
 var text = "";
 for (i = 0; i < person.names.length; i++) {
@@ -60,6 +62,9 @@ for (i = 0; i < person.names.length; i++) {
 </script>
 ```
 
+<h3>Explanation</h3>
+<p>The code above introduces three important programming constructs: Objects, Arrays and Loops; and the JavaScript Math Method.</p>
+<p>The first item in the function is a variable (var) known as 'person'. This variable is assigned a series of properties code above introduces two new important programming constructs: Arrays and Loops; and the JavaScript Math Method.</p>
 <hr>
 
 <h2>Example 2</h2>
