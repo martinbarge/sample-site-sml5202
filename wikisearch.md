@@ -76,7 +76,9 @@ form.addEventListener('submit', handleSubmit);
 	<p style="font-size: 86%;">Credit: The code for this application is derived from an excellent online tutorial by Ayooluwa Isaiah, a Web Technologies Software Developer based in Lagos, Nigeria. The tutorial can be followed <a href="https://freshman.tech/wikipedia-javascript/">here</a>.</p></div>
   
 <h2>The code</h2>
-<p>Copy and paste the code below into your own page. Change the 'en' to a language of your choice.</p>
+<p>For this application, you need to include the JavaScript on your page, and then add some styles to your stylesheet. The two code extracts are provided below.</p>
+<h3>The HTML and JS code</h3>
+<p>First you need to copy and paste the code below into your own page. Change the 'en' to a language of your choice.</p>
 
 ```
 <header class="searchForm-container">
@@ -144,4 +146,145 @@ form.addEventListener('submit', handleSubmit);
 
 ```
 
-  
+<h3>The CSS styles</h3>
+<p>Next, copy the following to your style.scss file in your assets/css folder.</p>
+
+```
+
+/** Wikipedia Search Styles **/
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.searchForm-container {
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.searchForm {
+  margin-left: 30px;
+  display: flex;
+  background-color: #292929;
+  border: 1px solid #242424;
+  border-radius: 4px;
+}
+
+.searchForm-input {
+  background-color: #f0f0f5;
+  border: none;
+  height: 44px;
+  width: 550px;
+  padding: 5px 10px;
+  color: #292929;
+}
+
+.icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background-color: #292929;
+}
+
+.icon:hover {
+  background-color: #1f1f1f;
+}
+
+.icon img {
+  width: 22px;
+  height: 22px;
+}
+
+.searchResults {
+  padding: 20px 0 50px;
+  margin-left: 140px;
+  margin-top: 2px;
+  width: 550px;
+  text-align: left;
+  background-color: white;
+}
+
+.resultItem {
+  opacity: 0;
+  margin-bottom: 20px;
+  animation: show 0.5s forwards ease-in-out;
+  color: #292929;
+  border-radius: 2px;
+  padding: 10px;
+  width: 100%;
+}
+
+
+.resultItem:hover {
+  background-color: aliceblue;
+}
+
+.resultItem-title {
+  margin-bottom: 4px;
+}
+
+.resultItem-title a {
+  color: black;
+  text-decoration: none;
+}
+
+.resultItem-title a:hover {
+  text-decoration: underline;
+}
+
+.resultItem-snippet, .resultItem-link {
+  color: darkSlateGray;
+  font-size: 13px;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+
+  .searchForm-container {
+    padding: 20px 0 20px;
+    height: auto;
+    justify-content: space-between;  
+    flex-direction: column;
+  }
+
+  .searchForm {
+    margin: 20px auto 0;
+  }
+
+  .searchForm-input {
+    width: 300px;
+  }
+
+  .searchResults {
+    width: 388px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* End Wikipedia Search Styles */
+
+```
