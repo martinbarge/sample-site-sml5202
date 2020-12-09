@@ -1,11 +1,3 @@
-<h1>Wikipedia Search Application</h1>
-<p>This example uses JavaScript to connect to the Wikipedia API to obtain a list of Wikipedia page entries based on any search term.</p>
-<p>In this example, the script calls the English version of Wikipedia. However, you can change this to a different language version of the platform. To do this you change the 'en' entries in the two following lines of code:</p>
-<p><code>https://en.wikipedia.org/w/api.php?</code></p>
-<p><code>https://en.wikipedia.org/wiki/${result.title}</code></p>
-<p>For example, to use the French version of Wikipedia, replace en with fr</p>
-<p>Type in a search term to see it work:</p>
-
 <header class="searchForm-container">
 <img src="https://image.ibb.co/e6vOFQ/wikipedia.png" alt="Wikipedia Logo">
 <form class="searchForm">
@@ -76,6 +68,7 @@ form.addEventListener('submit', handleSubmit);
   
 <h2>The code</h2>
 <p>Copy and paste the code below into your own page. Change the 'en' to a language of your choice.</p>
+
 ```
 <header class="searchForm-container">
 <img src="https://image.ibb.co/e6vOFQ/wikipedia.png" alt="Wikipedia Logo">
@@ -139,6 +132,7 @@ console.log(results);
 const form = document.querySelector('.searchForm');
 form.addEventListener('submit', handleSubmit);
 </script>
+
 ```
 
   
