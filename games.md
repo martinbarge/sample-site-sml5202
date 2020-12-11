@@ -16,7 +16,8 @@
   width: 75%;
   height: 75%;
   border: none;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
