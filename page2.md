@@ -13,8 +13,8 @@ END OF COMMENTS -->
 <div class="row">
     <div class="col-sm-5">
       <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/English_language_distribution.svg" style="width:100%" />
-        <p><span style="background:darkblue;">&nbsp;&nbsp;</span>: Regions where English is a majority native language</p>
-       <p><span style="background:lightblue;">&nbsp;&nbsp;</span>Regions where English is official but not a majority native language</p>
+        <p><span style="background:#346699; display: inline-block; min-width: 1.25em; height: 1.25em;">&nbsp;&nbsp;</span>: Regions where English is a majority native language</p>
+       <p><span style="background:#99ccff; display: inline-block; min-width: 1.25em; height: 1.25em;">&nbsp;&nbsp;</span>Regions where English is official but not a majority native language</p>
     </div>
     <div class="col-sm-7" style="padding:5px;" >
         <p>Modern English has been spreading around the world since the 17th century by the worldwide influence of the British Empire and the United States. Through all types of printed and electronic media of these countries, English has become the leading language of international discourse and the lingua franca in many regions and professional contexts such as science, navigation and law. Modern English grammar is the result of a gradual change from a typical Indo-European dependent marking pattern, with a rich inflectional morphology and relatively free word order, to a mostly analytic pattern with little inflection, a fairly fixed subject–verb–object word order and a complex syntax. Modern English relies more on auxiliary verbs and word order for the expression of complex tenses, aspect and mood, as well as passive constructions, interrogatives and some negation.</p>
