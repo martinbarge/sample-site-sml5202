@@ -1,4 +1,4 @@
-<h1>About Britain</h1>
+<h1>About English</h1>
 <p>The example on this page shows image and text arranged in two columns. It's a good way to layout information with illustrations.</p>
 
 <!-- 
@@ -9,25 +9,20 @@ I've also included paragraph tags and bullet list tags in the text section, so y
 END OF COMMENTS --> 
 <!-- Copy all of the code from below here -->
 
-<h3> Part 1: Read about Britain</h3>
+<h3> Part 1: Read about the English Language</h3>
 <div class="row">
     <div class="col-sm-5">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Uk_map_home_nations.png/256px-Uk_map_home_nations.png" style="width:100%" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/English_language_distribution.svg" style="width:100%" />
+        <p><span style="background:darkblue;">&nbsp;&nbsp;</span>: Regions where English is a majority native language</p>
+       <p><span style="background:lightblue;">&nbsp;&nbsp;</span>Regions where English is official but not a majority native language</p>
     </div>
     <div class="col-sm-7" style="padding:5px;" >
-    <p> The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom (UK or U.K.) or Britain, is a sovereign country located off the north-western coast of the European mainland. The United Kingdom includes the island of Great Britain, the north-eastern part of the island of Ireland, and many smaller islands. Northern Ireland shares a land border with the Republic of Ireland. Otherwise, the United Kingdom is surrounded by the Atlantic Ocean, with the North Sea to the east, the English Channel to the south and the Celtic Sea to the southwest, giving it the 12th-longest coastline in the world. The Irish Sea separates Great Britain and Ireland. The total area of the United Kingdom is 94,000 square miles (240,000 km2).</p>
-<p>The United Kingdom is a unitary parliamentary democracy and constitutional monarchy.The monarch is Queen Elizabeth II, who has reigned since 1952, making her the world's longest-serving current head of state. The United Kingdom's capital is London, a global city and financial centre with an urban area population of 10.3 million. The United Kingdom consists of four countries: England, Scotland, Wales and Northern Ireland. Their capitals are London, Edinburgh, Cardiff and Belfast, respectively. Apart from England, the countries have their own devolved governments, each with varying powers. Other major cities include Birmingham, Glasgow, Leeds, Liverpool, and Manchester.</p>
-<p>Facts about Britain:</p>
-<ul>
-    <li>Population: about 66 million people live in the United Kingdom (2020)</li>
-    <li>Capital: London with 9 million inhabitants</li>
-    <li>Name: United Kingdom of Great Britain and Northern Ireland</li>
-    <li>Language: English</li>
-    <li>Currency: 1 British Pound (GBP) = 100 penny</li>       
-</ul>
+        <p>Modern English has been spreading around the world since the 17th century by the worldwide influence of the British Empire and the United States. Through all types of printed and electronic media of these countries, English has become the leading language of international discourse and the lingua franca in many regions and professional contexts such as science, navigation and law. Modern English grammar is the result of a gradual change from a typical Indo-European dependent marking pattern, with a rich inflectional morphology and relatively free word order, to a mostly analytic pattern with little inflection, a fairly fixed subject–verb–object word order and a complex syntax. Modern English relies more on auxiliary verbs and word order for the expression of complex tenses, aspect and mood, as well as passive constructions, interrogatives and some negation.</p>
+<p>
+English is the largest language by number of speakers, and the third most-spoken native language in the world, after Standard Chinese and Spanish. It is the most widely learned second language and is either the official language or one of the official languages in almost 60 sovereign states. There are more people who have learned it as a second language than there are native speakers. As of 2005, it was estimated that there were over 2 billion speakers of English. English is the majority native language in the United States, the United Kingdom, Canada, Australia, New Zealand and Ireland, and it is widely spoken in some areas of the Caribbean, Africa and South Asia. It is a co-official language of the United Nations, the European Union and many other world and regional international organisations. It is the most widely spoken Germanic language, accounting for at least 70% of speakers of this Indo-European branch. English speakers are called "Anglophones". Variability among the accents and dialects of English used in different countries and regions—in terms of phonetics and phonology, and sometimes also vocabulary, idioms, grammar, and spelling—does not typically prevent understanding by speakers of other dialects, although mutual unintelligibility can occur at extreme ends of the dialect continuum. </p>
    </div>
   </div>
   
   <h3>Part 2: Comprehension check</h3>
-  <p>Take this quiz about Britain</p>
+  <p>Take this quiz about English</p>
   <strong>Note to me: insert Quiz here</strong>
