@@ -18,6 +18,5 @@ github:
   page8: js-random.html
   page9: wikisearch.html
   page10: games.html
-  - name: Blog
-  link: /blog.html
+  blog: blog.html
   
