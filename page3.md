@@ -1,10 +1,10 @@
 <h1>Grammar and Vocabulary</h1>
 <h2>Part 1: Grammar</h2>
 
-<h3>Grammar 1. Presentation. The present simple tense</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jW7tt0Ut3dM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--<h3>Grammar 1. Presentation. The present simple tense</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jW7tt0Ut3dM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 
-<h3>Grammar 2: Extension. Basic verb inflections</h3>
+<h3>Grammar. Basic verb inflections</h3>
 <p>The following is an example of a table used for displaying basic information:</p>
   <table class="table table-striped">
     <thead>
