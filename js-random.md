@@ -36,7 +36,7 @@ for (i = 0; i < person.names.length; i++) {
 </script>
 
 <h3>The Code</h3>
-<p>Note: You need a button with id "btn1" for this script call</p>
+<p>Note: You need a button with id "btn1" for this script call. You will also need a paragraph element with id="demo" below the button. </p>
 
 ```
 <script>
@@ -124,7 +124,8 @@ loadQuote();
 </script>
 
 <h3>The code:</h3>
-<p>Note: For this example you need a button with id "btn2" for this script call</p>
+<p>Note: For this example you need a button with id "btn2" for this script call. You will also need this page element above the button: &lt;dl id="quote"&gt;&lt;/dl&gt;</p>
+	
 
 ```
 <script>
