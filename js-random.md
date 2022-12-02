@@ -6,11 +6,13 @@
 <p>Clicking the button below will display a list of subjects (names and pronouns) followed by a verb and adverb. Each time you click the button, the verbs and adverbs will vary for each subject (within the limit of the number of available verbs (5)). </p>
 <p>Examine the code below to see how it's done:</p>
 
-<button onclick="makeSentence()">Make sentences</button>
+<button id="btn1">Make sentences</button>
 <p>Click the button more than once to see the sentences change. Random sentences will appear below here.</p>
 <p id="demo"></p>
 
 <script>
+btn1.addEventListener("click", makeSentence);
+
 function makeSentence() {
 
 var person = {
@@ -34,9 +36,11 @@ for (i = 0; i < person.names.length; i++) {
 </script>
 
 <h3>The Code</h3>
+<p>Note: You need a button with id "btn1" for this script call</p>
 
 ```
 <script>
+btn1.addEventListener("click", makeSentence);
 function makeSentence() {
 
 var person = {
@@ -68,6 +72,8 @@ for (i = 0; i < person.names.length; i++) {
 <p>The only point you need to understand at this stage is that you can modify the terms in the array lists and the code will work. So you can add new names, change the names, add new verbs and adverbs etc.</p>
 <hr>
 
+
+
 <h2>Example 2</h2>
 <p>In this example, I demonstrate how to load a random idiom when the page loads or when the button is clicked.</p> 
 <p>The same procedures as above have been deployed, but instead of looping through the entire list of items, the code simply accesses any one of the items and displays it on the page.</p>
@@ -76,7 +82,7 @@ for (i = 0; i < person.names.length; i++) {
 <h2>Random colour idiom</h2>
 <dl id="quote"></dl>
 <!--<script src="script.js"></script>-->
-<button onclick="loadQuote()">See another random idiom</button>
+<button id="btn2">See another random idiom</button>
 <hr>
 
 <script>
@@ -101,6 +107,7 @@ var examples = [
 
 var quoteNo;
 var idiomNo;
+btn2.addEventListener("click", loadQuote);
 function loadQuote() {
     idiomNo = Math.floor(Math.random() * (idioms.length));
     if(idiomNo !== quoteNo) {
@@ -117,6 +124,7 @@ loadQuote();
 </script>
 
 <h3>The code:</h3>
+<p>Note: For this example you need a button with id "btn2" for this script call</p>
 
 ```
 <script>
@@ -141,6 +149,7 @@ var examples = [
 
 var quoteNo;
 var idiomNo;
+btn2.addEventListener("click", loadQuote);
 function loadQuote() {
     idiomNo = Math.floor(Math.random() * (idioms.length));
     if(idiomNo !== quoteNo) {
